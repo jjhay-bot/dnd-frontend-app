@@ -3,7 +3,7 @@ import { getRequestOptions } from '../httpRequest/httpOptions';
 import { getProductList } from './products-slice';
 import axios from 'axios';
 
-const url = '/products';
+const url = 'https://dndjews-v2.herokuapp.com/products';
 const getProductData = () => {
   return async (dispatch) => {
     await axios
